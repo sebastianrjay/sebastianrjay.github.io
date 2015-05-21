@@ -1,3 +1,3 @@
 # sebastianrjay.github.io
 
-[LINK](http://sebastianrjay.github.io)
+[VIEW MY WEBSITE HERE](http://sebastianrjay.github.io)
