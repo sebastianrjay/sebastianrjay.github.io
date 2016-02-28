@@ -126,7 +126,7 @@
           <h3><b>RubyChess</b></h3>
           <h5>A chess game playable in the command line.</h5>
           <h6>(Ruby)</h6>
-  				<a href="https://github.com/sebastianrjay/RubyChess"><img src="assets/img/portfolio/rubychess.png" class="img-responsive"></a>
+  				<a href="https://github.com/sebastianrjay/RubyChess"><img src="assets/img/portfolio/chess.png" class="img-responsive"></a>
           <br>
           <p>The link above shows the code on Github. To play the game, click the
             "Download ZIP" button on Github and follow the directions.<p>
@@ -173,5 +173,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('a').click(function(event) {
+        $('.active').removeClass('active');
+        event.currentTarget.addClass('active');
+      });
+    </script>
   </body>
 </html>
