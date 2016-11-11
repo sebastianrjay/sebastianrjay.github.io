@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #4a4a4a;
 }
 
+.blue a {
+  border-color: #1E90FF !important;
+  color: #1E90FF !important;
+}
 
 .navbar-brand {
 	font-weight: 700;
@@ -171,15 +175,15 @@ h1, h2, h3, h4, h5, h6 {
 	min-height: 650px;
 	width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #workwrap h1 {
@@ -197,27 +201,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {
-	background: url(../img/IMG_9862.JPG) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
+	background: url(../img/headshot_downsized_even_more.jpeg) no-repeat center top;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 550px;
+	min-height: 750px;
 	width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
 
 /* Gallery */
 .gallery {
